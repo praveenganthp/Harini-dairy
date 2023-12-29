@@ -1,0 +1,127 @@
+.block1 {
+  height: 90vh;
+  padding-top: 10px;
+}
+.block1 h4 {
+  color: var(--Primary, #43bdaf);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 133.333% */
+  letter-spacing: 0.18px;
+}
+.block1 h1 {
+  color: #2e2e2e;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 70px; /* 145.833% */
+  text-transform: capitalize;
+}
+.block1-pad {
+  padding: 40px 80px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(386px, 1fr));
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+
+  /* margin-bottom: 100px; */
+  /* padding-bottom: 10px; */
+}
+.serve-card p {
+  white-space: nowrap; /* Prevent line breaks */
+}
+
+.serve-card {
+  border-radius: 12px;
+  background: var(--Primary, #43bdaf);
+  border: none;
+  /* padding: 20px; */
+  text-align: center;
+  /* height: 310px; */
+}
+
+.serve-card-back {
+  background: #e1fdfa;
+  height: 310px;
+  display: flex;
+  border-radius: 12px;
+  flex-direction: column;
+  justify-content: center;
+  transition: 0.5s ease-in-out;
+
+  /* align-items: center; */
+}
+.serve-card .icon{
+  padding-bottom: 10px;
+}
+.serve-card:hover .serve-card-back {
+  background: white;
+  /* animation: Slide 0.5s ease-in-out; */
+  transform: translateY(-5px) scale(1.005) rotate(-1deg) scale(0.95)
+    translateZ(0);
+}
+.serve-card:hover {
+}
+/* @keyframes Slide {
+  0%{
+    transform: translate(80deg);
+  }
+  100%{
+transform: translate(80deg);
+  }
+} */
+
+.card h4 {
+  color: #333333;
+  font-size: clamp(1rem, 5vw, 1.5rem);
+  margin-bottom: 10px;
+}
+
+.card p {
+  color: #1e1d1d;
+  font-size: 1em;
+}
+
+.icon {
+  display: block;
+  margin-bottom: 15px;
+}
+
+.icon svg {
+  height: 40px;
+  width: 40px;
+  stroke: #3498db;
+}
+.home-svg .cls-1,
+.home-svg .cls-2 {
+  fill: none;
+  stroke: #0f1a34;
+  stroke-linejoin: round;
+  stroke-width: 2px;
+}
+
+.home-svg .cls-1 {
+  stroke-linecap: round;
+}
+.home-card-img {
+  height: 50px;
+}
+
+@media (max-width: 768px) and (orientation: landscape) {
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+  }
+  .serve-card p {
+    white-space: normal; /* Allow line breaks on smaller screens */
+  }
+}

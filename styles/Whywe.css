@@ -1,0 +1,64 @@
+.whywe {
+  /* height: 100vh; */
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+.whywe h2 {
+  color: var(--material-theme-black, #000);
+  font-family: Poppins;
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 67px; /* 128.846% */
+}
+.whywe-left {
+  padding: 5%;
+}
+.whywe-right {
+  padding: 5%;
+  /* height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center; */
+}
+.years-exp {
+  display: inline-flex;
+  height: 183px;
+  padding: 16px 24px;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #e1fdfa;
+}
+.years-exp h3 span {
+  color: #000;
+  font-family: Poppins;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 52px; /* 86.667% */
+}
+.years-exp h3 {
+  color: #000;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 52px; /* 216.667% */
+}
+.whywe-descrip p {
+  padding: 2%;
+  color: #000;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  text-align: justify;
+  line-height: 38px; /* 190% */
+}

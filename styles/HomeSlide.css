@@ -1,0 +1,26 @@
+.homeslide{
+    height: 43vh;
+    padding: 0;
+    margin: 0;
+}
+.homeslide img{
+height: 43vh;
+}
+
+.carousel-caption h5 ,.carousel-caption p {
+    color: #43bdaf;
+    
+}
+.carousel-caption{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+    transform: translate(-50%, -50%);
+   /* right: 0; */
+    padding: 1.25rem;
+    background: rgba(0,0,0,0);
+}
+.carousel-control-prev-icon ,
+.carousel-control-next-icon{
+    filter: invert(100%);
+}

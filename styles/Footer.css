@@ -1,0 +1,43 @@
+.footer-cont {
+  padding: 5%;
+}
+.footer {
+  background-color: rgb(23, 20, 20);
+  color: azure;
+}
+.footer-left {
+  display: flex;
+  justify-content: center;
+}
+.footer-right {
+  display: flex;
+  justify-content: center;
+}
+.footer-right p {
+  color: #cac8c8;
+
+  /* Body (01) */
+  font-family: Manrope;
+  font-size: 18px;
+  font-style: normal;
+  /* font-weight: 600; */
+  line-height: 175%; /* 31.5px */
+}
+.footer-down {
+  display: flex;
+  justify-content: space-between;
+  height: 20vh;
+  align-items: center;
+  background-color: black;
+  padding-inline: 5px;
+}
+.footer-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  list-style: none;
+}
+.footer-list li {
+  margin-right: 10px;
+}

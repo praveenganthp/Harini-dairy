@@ -1,0 +1,6 @@
+.navbar{
+    position: fixed;
+}
+nav{
+    background: var(--material-theme-sys-light-on-primary, #FFF);
+}

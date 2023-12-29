@@ -1,0 +1,52 @@
+.block2 {
+  padding-bottom: 10px;
+}
+.block2-head {
+  color: #000;
+  text-align: start;
+  font-family: Poppins;
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 600;
+  padding-left: 25px;
+  line-height: 42px; /* 80.769% */
+}
+.block2 p {
+  color: #000;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 35px; /* 145.833% */
+  letter-spacing: 0.2px;
+}
+/* .grid2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+
+  @media (max-width: 767px) and (orientation: portrait) {
+    grid-template-columns: 1fr;
+  }
+} */
+/* .card2 {
+  background-color: #ffffff;
+  padding: 20px; */
+/* border-radius: 8px; */
+/* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+/* border:cyan; */
+/* text-align: center;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+} */
+.product-img {
+  /* height: 200px;
+  width: 200px;
+  max-width: 100%;
+  filter: drop-shadow(0 4px 8px rgba(25, 36, 236, 0.44)); */
+}

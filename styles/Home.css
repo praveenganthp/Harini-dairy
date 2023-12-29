@@ -1,0 +1,77 @@
+.home {
+ background: #E1FDFA;
+  padding-bottom: 00px;
+  position: relative; /* Add this to make positioning relative to the home container */
+  padding: 0;
+  height: 100vh;
+  margin: 0%;
+  overflow: hidden;
+}
+.home-left{
+  background: rgb(249, 250, 250);
+  height: 100vh;
+}
+.home-but{
+  color: var(--material-theme-sys-light-on-primary, #FFF);
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.2px;
+}
+.home-left-img {
+  position: absolute;
+  top: -10%;
+  left: 35%;
+  filter: drop-shadow(0 0px 10px rgba(255, 254, 254, 0.3));
+}
+
+.home-left-img img {
+ 
+}
+.welcome-para {
+  padding-top: 20%;
+  display: flex;
+  align-items: center;
+  text-align: left;
+  justify-content: center;
+  flex-direction: column;
+ 
+}
+.welcome-para h1{
+color: var(--gray-900, #18181B);
+font-family: Poppins;
+font-size: 60px;
+font-style: normal;
+font-weight: 600;
+line-height: 71px; /* 118.333% */
+}
+.welcome-para p{
+  color: var(--gray-600, #52525B);
+
+/* Inter/Regular/16px */
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+}
+@media (max-width: 768px) {
+  .home-left-img img {
+    /* height: 200px; */
+  }
+  .home {
+    height: auto;
+    padding-block: 10px;
+  }
+  .welcome-para{
+    height: auto;
+  }
+}
+@media (max-width: 768px) and (orientation: landscape) {
+  .home {
+    height: auto;
+    padding-block: 10px;
+  }
+}

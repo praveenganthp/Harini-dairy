@@ -1,0 +1,35 @@
+.founder {
+  height: auto;
+}
+.founder h2 {
+  color: #000;
+  font-family: Poppins;
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 62px; /* 119.231% */
+}
+.found-head{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    padding-inline: 5%;
+}
+.testimonal-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.testimonal-img img {
+  border-radius: 20px;
+  padding-bottom: 10px;
+}
+.testimonal-content p {
+  color: rgba(0, 0, 0, 0.75);
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  padding-block: 10px;
+  line-height: 42px; /* 210% */
+}
